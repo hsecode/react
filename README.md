@@ -33,4 +33,4 @@
 
 ### 4. 조건부 렌더링
 - JSX 내부에서 조건부 렌더링을 할 때는 보통 삼항 연산자를 사용하거나, AND 연산자를 사용한다.
-- 반면에 if 문을 사용 할 수는 없다. (사용하려면 IIFE(즉시 실행 함수 표현) 을 사용해야 한다.)
+- 반면에 if 문을 사용 할 수는 없다. (사용하려면 <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank">IIFE</a>(즉시 실행 함수 표현) 을 사용해야 한다.)
