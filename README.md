@@ -34,3 +34,11 @@
 ### 4. 조건부 렌더링
 - JSX 내부에서 조건부 렌더링을 할 때는 보통 삼항 연산자를 사용하거나, AND 연산자를 사용한다.
 - 반면에 if 문을 사용 할 수는 없다. (사용하려면 <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank">IIFE</a>(즉시 실행 함수 표현) 을 사용해야 한다.)
+
+### 5. style과 class
+- style을 줄 때에는 캐멀방식을 사용한다. (ex. fontSize )
+- class는 className 으로 사용한다.
+
+### 6. 주석
+- 태그 사이세 사용 가능 (ex. <h1 //주석 테스트> 리액트 </h1>
+- 여러줄 주석은 {}로 감싸서 사용한다. (ex. {/* 주석 테스트 */} )
