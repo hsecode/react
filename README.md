@@ -70,3 +70,6 @@
 ### 2. <a href="https://www.notion.so/6f4e4c34a1f84ccc87a702549112b578" target="_blank">컴포넌트 업데이트</a>
 - componentWillReceiveProps (v16.3 이후 사용되지 않음)
 - static getDerivedStateFromProps() : v16.3 이후에 만들어진 라이프사이클 API.  props 로 받아온 값을 state 로 동기화 하는 작업을 해줘야 하는 경우에 사용.
+- shouldComponentUpdate : 업데이트를 막아주는 함수
+- componentWillUpdate (v16.3 이후 사용되지 않음)
+- getSnapshotBeforeUpdate() : 컴포넌트가 업데이트되어 브라우저의 DOM에 반영되기 바로 직전에 호출되는 함수
