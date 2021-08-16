@@ -19,6 +19,9 @@
 - 이벤트성 페이지 등 정보 변화가 없는 화면의 경우 리액트를 사용하지 않는 것이 더 빠를 수 있다.
 - 참고 : https://developerntraveler.tistory.com/51
 
+## <a href="https://www.notion.so/831833dae2a848a080b030547e15e901?showMoveTo=true" target="_blank">환경 세팅</a>
+- node js / nvm / yarn 설치
+
 ## JSX
 - js로 변환되는 문법
 - html과 비슷하지만 몇가지 규칙이 있다.
