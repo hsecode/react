@@ -73,3 +73,11 @@
 - shouldComponentUpdate : 업데이트를 막아주는 함수
 - componentWillUpdate (v16.3 이후 사용되지 않음)
 - getSnapshotBeforeUpdate() : 컴포넌트가 업데이트되어 브라우저의 DOM에 반영되기 바로 직전에 호출되는 함수
+
+
+### 3.  <a href="https://www.notion.so/d226b8c8f6754a509121611cd450e79a" target="_blank">컴포넌트 제거</a>
+- componentWillUnmount : 컴포넌트가 더 이상 필요하지 않게 되면 단 하나의 API 가 호출된다.
+
+### 4. <a href="https://www.notion.so/7311965e29bd45ada7c39eb1f0321c18" target="_blank">컴포넌트 에러발생</a>
+- componentDidCatch : render 함수에서 에러가 발생한다면, 리액트 앱이 크래쉬 되어버린다. 그때 사용할 수 있는 함수.
+- 에러가 발생한 컴포넌트의 부모 컴포넌트에서 실행한다.
