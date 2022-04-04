@@ -1,6 +1,6 @@
 # study_react
 
-# [누구든지 하는 리액트: 초심자를 위한 react 핵심 강좌]
+# [기초 노트 (누구든지 하는 리액트: 초심자를 위한 react 핵심 강좌)]
 ## 기초
 
 ### React?
@@ -20,7 +20,7 @@
 - 참고 : https://developerntraveler.tistory.com/51
 
 ## <a href="https://www.notion.so/831833dae2a848a080b030547e15e901?showMoveTo=true" target="_blank">환경 세팅</a>
-- node js / nvm / yarn 설치
+- nvm / node js / yarn 설치
 
 ## JSX
 - js로 변환되는 문법
