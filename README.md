@@ -65,6 +65,7 @@
 
 ## LifeCycle API
 - LifeCycle API 는 컴포넌트가 브라우저에서 나타날때, 사라질때, 그리고 업데이트 될 때 호출되는 API 이다.
+
 ### 1. <a href="https://www.notion.so/958c0d1c2a004b139bad5d475a2cf01a" target="_blank">컴포넌트 초기 생성</a>
 - constructor : 컴포넌트 생성자 함수. 컴포넌트가 새로 만들어질 때마다 이 함수가 호출.
 - componentWillMount (v16.3 이후 사용되지 않음)
