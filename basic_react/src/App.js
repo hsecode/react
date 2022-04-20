@@ -1,10 +1,18 @@
 import React, { Component } from "react";
-import MyName from "./myname";
+import TodoHead from "./component/todoHead";
+import TodoContent from "./component/todoContent";
+import TodoList from "./component/todoList";
 
 class App extends Component {
   render() {
-    return <MyName name="Candy"/>;
-    // name 값이 없을 경우 (<Myname />) React1233 으로 출력
+    return (
+        <>
+          <div className={'todolistWrap'}>
+            <TodoHead></TodoHead>
+            <TodoContent></TodoContent>
+          </div>
+        </>
+    )
   }
 }
 
